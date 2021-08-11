@@ -5,8 +5,8 @@ import java.util.Iterator;
 
 public class Customer {
 
-	private String name;
-	private ArrayList<Rental> rentalList = new ArrayList<Rental>();
+	private final String name;
+	private final ArrayList<Rental> rentalList = new ArrayList<Rental>();
 
 	public Customer(String name) {
 		this.name = name;
