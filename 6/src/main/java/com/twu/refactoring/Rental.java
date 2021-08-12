@@ -2,7 +2,7 @@ package com.twu.refactoring;
 
 public class Rental {
 
-    private final Movie movie;
+    private Movie movie;
 
     private final int daysRented;
 
@@ -18,4 +18,9 @@ public class Rental {
     public Movie getMovie() {
         return movie;
     }
+
+    public void setMovie(Movie movie) {
+        this.movie = movie;
+    }
+
 }
